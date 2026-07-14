@@ -13,6 +13,6 @@ int main()
 	im = 60+im;
 	ih--;
 	}
-	printf("时间差是%d小时%d分.\n",ih,im);
+	printf("%d %d.\n",ih,im);
     return 0;
 }
