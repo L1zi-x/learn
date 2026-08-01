@@ -2,6 +2,7 @@
 
 int main()
 {
+
     int a;
 	int b;
 	int t;
@@ -13,7 +14,7 @@ int main()
 		a=b;
 		b=t;
 	}
-	printf("最大公约数是%d",a);
+	printf("脳卯麓贸鹿芦脭录脢媒脢脟%d",a);
 
     return 0;
 
