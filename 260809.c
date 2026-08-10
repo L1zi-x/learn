@@ -7,24 +7,19 @@ int main(void)
     int* a;
     int i; 
 
-    printf("ÇëÊäÈëÊıÁ¿£º");
+    printf("è¯·è¾“å…¥æ•°é‡ï¼š");
     scanf("%d", &number);
 
 
     a = (int*)malloc(number * sizeof(int));
-    if (a == NULL)
-    {
-        printf("ÄÚ´æ·ÖÅäÊ§°Ü£¡\n");
-        return 1;
-    }
 
-    printf("ÇëÒÀ´ÎÊäÈë%d¸öÕûÊı£º\n", number);
+    printf("è¯·ä¾æ¬¡è¾“å…¥%dä¸ªæ•´æ•°ï¼š\n", number);
     for (i = 0; i < number; i++)
     {
         scanf("%d", &a[i]);
     }
 
-    printf("ÄæĞòÊä³ö£º");
+    printf("é€†åºè¾“å‡ºï¼š");
     for (i = number - 1; i >= 0; i--)
     {
         printf("%d ", a[i]);
